@@ -1,0 +1,13 @@
+/* Google Fonts */
+
+
+.inter-font-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared Code */
+
+.header-background{
+    background-color: #1A0B2E;
+}
