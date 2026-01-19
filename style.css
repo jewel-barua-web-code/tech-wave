@@ -19,6 +19,12 @@
     background: linear-gradient(24deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 50%, rgba(145, 0, 248, 1) 100%);
 }
 
+.section-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
 /* Hero section */
 
 .hero{
@@ -29,15 +35,23 @@
     background-size: cover;
 }
 
-.hero-logo{
-    display: flex;
-    width: 100%;
+/* Choose Section */
+
+.choose-container{
+    width: 1600px;
+    height: 1180px;
+    background-color: #230E3D;
     margin: 0 auto;
 }
-.hero-container{
-    text-align: center;
-}
 
+.choose-items-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
 /* About section */
 
 .about-container{
@@ -49,5 +63,26 @@
 
 .about-container h2{
     color: white;
+}
+
+/* Features Section */
+
+
+
+/* Footer section */
+
+.footer-container{
+    background: url(./assets/footer-bg.png);
+    width: 100%;
+    height: 412px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
