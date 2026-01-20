@@ -16,47 +16,49 @@
 </head>
 <body class="inter-font-style">
     <header class="header-background py-4">
-        <div class="flex justify-between items-center max-w-7xl mx-auto">
+        <div class="flex justify-between items-center max-w-7xl mx-auto gap-4">
             <div>
                 <img src="./assets/TechWave.png" alt="">
             </div>
-            <nav class="flex gap-8 text-white">
+            <nav class="flex gap-4 text-white hidden md:block">
                 <a href="http://">About</a>
                 <a href="http://">Episodes</a>
                 <a href="http://">Host</a>
             </nav>
-            <div>
-                <button class="btn text-white btn-pirmary"><a href="http://">Subscribe</a></button>
+            <div class="">
+                <button class="btn text-white btn-pirmary hidden lg:block"><a href="http://">Subscribe</a></button>
+                <button class="lg:hidden sm:block mr-[30px]"><img src="./assets/hamburger-menu.png" alt=""></button>
             </div>
         </div>
     </header>
     <main class="hero-section text-center">
         <div class="hero-section-content">
-            <img src="./assets/hero-circle.png" alt="">
-            <img class="" src="./assets/microphone.png" alt="">
+                <img src="./assets/microphone.png" alt="">
         </div>
         <div>
             
             <h1 class="hero-title">TechWave</h1>
             <p class="section-content-text">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            <button class="btn-pirmary">Listen on Spotify</button>
-            <button class="btn-secondary">Subscribe</button>
+            <div>
+                <button class="btn-pirmary">Listen on Spotify</button>
+            <button class="btn-secondary">
+                <a href="http://">Subscribe</a>
+                
+            </button>
+            </div>
         </div>
     </main>
 
     <!-- About Section -->
     <section class="about-container">
             <h2 class="section-heading">About the Podcast</h2>
-            <div class="about-container-items">
                 <p class="section-content-text">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work,
                 <br>and share stories of personal growth from industry leaders.
                 <br><br><br>
                 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
-                <br><br>
-               
-            </div>
+                <br><br> 
          <hr class="text-white">
-    <div class="grid grid-cols-4 gap-4 listeners-container">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 listeners-container">
         <div>
             <h3 class="listeners">150K+</h3>
             <p class="listeners-text">Monthly Listeners</p>
@@ -80,7 +82,7 @@
 
     <section class="choose-container">
         <h2 class="section-heading pt-[120px] pb-[40px]">Why Choose TechWave</h2>
-        <div class="choose-items-container grid grid-cols-3 gap-8">
+        <div class="choose-items-container grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="box row-span-2 py-[107px] px-[40px]">
                 <img src="./assets/headphone.png" alt="">
                 <h6 class="text-xl section-content-heading mt-[16px]">Premium Audio Quality</h6>
@@ -116,7 +118,7 @@
     <section class="host-container">
         <section class="features-container">
         <h2 class="section-heading pb-[40px]">Featured Episodes</h2>
-         <div class="features grid grid-cols-3 gap-4">
+         <div class="features grid grid-cols-1 lg:grid-cols-3 gap-4">
                <div class="feature-item">
                     <iframe width="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                     </iframe>
@@ -174,7 +176,6 @@
             </div>
         </div>
         <p class="section-content-text text-center mt-[32px]">© 2026 TechWave Podcast. All rights reserved.</p>
-         
     </footer>
     
 </body>
